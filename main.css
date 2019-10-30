@@ -1,0 +1,107 @@
+
+
+body {
+    background: #fffbf4; /*linear-gradient(to top, #FFD5B2, #f2fcfe);*/
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*Navagation*/
+
+nav  {
+    border-bottom: 1px solid whitesmoke;
+    min-height: 55px;
+    box-shadow: 0px 2px 4px #888888;
+
+}
+
+nav a {
+    font-family: 'Passion One', cursive;
+    font-size: 1.5em;
+}
+
+
+nav a:hover {
+    color: black;
+}
+
+/*Navagation End*/
+
+
+
+/*Jumbotron*/
+
+.jumbotron{
+    background: linear-gradient(to bottom, #eacda3, #d6ae7b); 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 225px;
+    box-shadow: 0px 4px 5px #888888;
+    
+}
+
+.jumbotron h1 {
+font-family: 'Oswald', sans-serif;
+    font-size: 3.5em;
+    font-weight: 200;
+    padding-top: 20px;
+}
+
+/*Jumbotron End*/
+
+
+
+
+
+/*Image*/
+
+img {
+    box-shadow: 8px 6px 5px grey;
+}
+/********/
+
+
+
+
+/*Main Content*/
+
+#mainContent h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 3rem;
+    text-shadow: 4px 4px 5px #bebebe;
+
+}
+#mainContent p {
+    font-family: 'Muli', sans-serif;
+    font-size: 18px;
+}
+
+.btn-outline-primary {
+    margin: 20px;
+}
+
+.contactInfo {
+    font-size: 1em;
+}
+
+/*Main Content End*/
+
+
+
+
+/*Footer*/
+footer {
+    border-top: 1px solid black;
+}
+
+.footerText {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+/*Footer End*/
